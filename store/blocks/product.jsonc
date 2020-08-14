@@ -22,6 +22,7 @@
   "flex-layout.col#right": {
     "children": [
       "product-name",
+      "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
       "shipping-simulator",
@@ -30,11 +31,6 @@
     "props":{
       "verticalAlign": "middle",
       "preventVerticalStretch": true
-    }
-  },
-  "product-name":{
-    "props":{
-      "product-indetifier.product": "right"
     }
   },
   "product-price": {
