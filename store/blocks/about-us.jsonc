@@ -19,9 +19,9 @@
             "preventVerticalStretch": true
         }
     },
-   "rich-text#about-title": {
+    "rich-text#about-title": {
         "props": {
-            "text": "# About FlaFlat"
+            "text": "# About FlatFlat"
         }
     },
     "rich-text#about-content": {
@@ -31,7 +31,7 @@
     },
     "image#about-us": {
         "props": {
-            "src":  "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
             "maxHeight": "600px"
         }
     }
