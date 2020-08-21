@@ -1,0 +1,25 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "minWidth": "100%",
+            "src": "https://cdn.pagvendas.pagseguro.uol.com.br/product/2014686?lastUpdate2020-08-19T03:16:00.441Z"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "maxItemsPerPage": 8,
+                "hideUnavailableItems": false,
+                "orderByField": "OrderByReleaseDateDESC",
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "specificationFilter_100"
+            }
+        }
+    }
+}
