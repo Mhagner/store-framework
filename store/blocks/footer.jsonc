@@ -6,8 +6,13 @@
     },
     "footer-layout.desktop": {
         "children": [
-            "flex-layout.row#footer-left-desktop",
-            "flex-layout.row#footer-right-desktop"
+            "flex-layout.row#footer-1-desktop"
+        ]
+    },
+    "flex-layout.row#footer-1-desktop": {
+        "children": [
+            "flex-layout.col#footer-left-desktop",
+            "flex-layout.col#footer-right-desktop"
         ],
         "props": {
             "blockClass": "footer-row",
@@ -15,7 +20,7 @@
             "paddingBottom": 7
         }
     },
-    "flex-layout.row#footer-left-desktop": {
+    "flex-layout.col#footer-left-desktop": {
         "children": [
             "accepted-payment-methods"
         ]
@@ -29,17 +34,26 @@
             ]
         }
     },
-    "flex-layout.row#footer-right-desktop":{
+    "flex-layout.col#footer-right-desktop": {
         "children": [
             "social-networks"
         ]
     },
-    "social-networks":{
-        "props":{
+    "social-networks": {
+        "props": {
             "socialNetworks": [
-                { "url": "https://facebook.com/foo", "name": "Facebook" },
-                { "url": "https://instagram.com/foo", "name": "Instagram" },
-                { "url": "https://twitter.com/foo", "name": "Twitter" }
+                {
+                    "url": "https://facebook.com/foo",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://instagram.com/foo",
+                    "name": "Instagram"
+                },
+                {
+                    "url": "https://twitter.com/foo",
+                    "name": "Twitter"
+                }
             ],
             "showInColor": true
         }
