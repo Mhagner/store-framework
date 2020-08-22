@@ -26,14 +26,14 @@
         ]
     },
     "flex-layout.col#img": {
+         "props": {
+            "paddingRight": 4,
+            "horinzontalAlign": "right"
+        },
         "children": [
             "image#menu",
             "rich-text#header"
-        ],
-        "props": {
-            "paddingRight": 4,
-            "horinzontalAlign": "right"
-        }
+        ]
     },
     "image#menu": {
         "props": {
