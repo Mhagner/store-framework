@@ -16,9 +16,11 @@
             "menu-item#washers"
         ],
         "props": {
-            "orientation": "vertical",
-            "text": "Major Aplliances"
-        }
+            "orientation": "vertical"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#major"
+        ]
     },
     "vtex.menu@2.x:submenu#major": {
         "children": [
@@ -32,9 +34,11 @@
             "menu-item#coffee"
         ],
         "props": {
-            "orientation": "vertical",
-            "text": "Small Appliances"
-        }
+            "orientation": "vertical"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#small"
+        ]
     },
     "vtex.menu@2.x:submenu#small": {
         "children": [
@@ -48,9 +52,11 @@
             "menu-item#tvs"
         ],
         "props": {
-            "orientation": "vertical",
-            "text": "Electronics"
-        }
+            "orientation": "vertical"
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#electronics"
+        ]
     },
     "vtex.menu@2.x:submenu#electronics": {
         "children": [
