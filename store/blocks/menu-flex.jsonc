@@ -28,7 +28,7 @@
     "flex-layout.col#img": {
          "props": {
             "paddingRight": 4,
-            "horinzontalAlign": "right"
+            "horizontalAlign": "right"
         },
         "children": [
             "image#menu",
